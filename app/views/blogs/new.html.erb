@@ -1,0 +1,19 @@
+<h1>Create new Portfolio Item</h1>
+
+<%= form_for(@blog) do |f| %>
+  <div class="field">
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+  </div>
+
+ <div class="field">
+  <%= f.label :body %>
+  <%= f.text_field :body %>
+  </div>
+
+  <div class="actions">
+  <%= f.submit %>
+  </div>
+
+  <% end %>
+
